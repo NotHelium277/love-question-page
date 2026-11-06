@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff3f7">
+  <title>A Little Question</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="heart-rain" aria-hidden="true"></div>
+  <main class="card" id="question-card">
+    <div class="sparkle" aria-hidden="true"></div>
+    <p class="eyebrow">A very important question</p>
+    <h1>I Love You.<br><span>Do You Love Me?</span></h1>
+    <p class="subtitle">Choose wisely… my heart is counting on you 💗</p>
+
+    <div class="actions" id="actions">
+      <button class="button button-yes" id="yes-button" type="button">Yes! <span aria-hidden="true">💖</span></button>
+      <button class="button button-no" id="no-button" type="button" aria-describedby="no-hint">No</button>
+    </div>
+    <p class="hint" id="no-hint" aria-live="polite">There’s no wrong answer… or is there? 😉</p>
+  </main>
+
+  <section class="celebration" id="celebration" aria-live="polite" aria-hidden="true">
+    <div class="celebration-card">
+      <div class="big-heart" aria-hidden="true">💖</div>
+      <p class="eyebrow">A perfect answer!</p>
+      <h2>Congratulations!</h2>
+      <p>You just made someone’s heart so happy.</p>
+      <button class="button button-yes again-button" id="again-button" type="button">Ask me again ✨</button>
+    </div>
+    <div class="confetti" aria-hidden="true"></div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
